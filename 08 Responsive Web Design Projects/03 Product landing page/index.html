@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <a href="#header" class="nav-link">About</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#video-wrapper" class="nav-link">Video</a>
+            <a href="#join" class="nav-link">Join</a>
+        </nav>
+
+        <div class="container">
+            <div class="header-left">
+                <h1>Application Ideas</h1>
+                <p>Have you ever wanted to build something but you had no idea what to do? Just as authors sometimes
+                    have "writers block" it's also true for developers. This list is intended to solve this issue once
+                    and for all! 👍</p>
+                <a class="btn" href="#">Repo Link</a>
+            </div>
+            <div class="header-right">
+                <img id="header-img" src="https://github.com/florinpop17/app-ideas/raw/master/app-ideas.png"
+                    alt="thumbail" />
+            </div>
+        </div>
+    </header>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="container">
+            <div class="feature">
+                <i class="fas fa-users"></i>
+                <h2>User Stories</h2>
+                <p>A list of User Stories which should be implemented (these stories act more as a guideline than a
+                    forced list of To-Do's. Feel free to add your own stories if you want)</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-user-plus"></i>
+                <h2>Bonus Features</h2>
+                <p>A list of bonus features that not only improve the base project, but also your skills at the same
+                    time (these are optional and should be attempted only after you have completed the required user
+                    stories)</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-boxes"></i>
+                <h2>Resources and Examples</h2>
+                <p>All the resources and links to help you find what you need to complete the project</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-wrapper">
+        <h2>Video</h2>
+        <div class="container">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/TNzCfgwIDCY" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="join" class="bg-yellow">
+        <div class="container">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <h2>Stay up-to-date with what we're doing</h2>
+                <div class="flex">
+                    <input id="email" name="email" type="email" placeholder="Enter your email..." />
+                    <input id="submit" type="submit" class="btn btn-ghost" value="Submit" />
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        Made by Saket Kothari
+    </footer>
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
